@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    vertical-align: middle;
+}
+
+ul{
+    list-style: none;
+}
+
+.full-wrapper{
+    width: 100%;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/*==============================
+common css ends
+===============================*/
+
+.banner-bg{
+    height: 100vh;
+    background: url(./images/pexels-kaboompics-com-54283.jpg) no-repeat center / cover;
+}
+
+.banner-bg .banner{
+    height: 100vh;
+}
+
+.banner-bg .banner .banner-text{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-bg .banner .banner-text p{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    font-size: 24px;
+}
+
+.banner-bg .banner .banner-text h1{
+    font-family: 'Abril Fatface', cursive;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.banner-bg .banner .banner-text h4{
+    height: 40px;
+    text-transform: uppercase;
+}
+
+.banner-bg .banner .banner-text a{
+    display: inline-block;
+    line-height: 46px;
+    border: 1px solid black;
+    padding: 5px 15px;
+    color: black;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+#counterPart{
+    margin-top: 50px;
+    background: rgb(153, 153, 153);
+}
+
+#counterPart .counter-main{
+    display: flex;
+    padding: 50px ;
+}
+
+
+#counterPart .counter-main .counter-item{
+    width: 25%;
+    text-align: center;
+}
+
+#counterPart .counter-main .counter-item h4{
+    font-family: 'Abril Fatface', cursive;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: black;
+}
+
+#counterPart .counter-main .counter-item p{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    font-size: 18px;
+}
